@@ -1,0 +1,31 @@
+param:  F:                          c     V  :=
+  "Quark"                        0.70   4.0  
+  "Jogurth"                      0.50   7.5  
+  "Carb mix"                     0.25   3.5  
+  "Kakao"                        0.25   3.5
+  "Veggie mix"                   1.20   5.0  
+  "Sugar mix"                    1.10   4.1  
+  "Milk Protein Pulver"          1.00   8.0 
+  "Lemon Juice"                   .72  12.0 ;
+
+param Vmax := 75.0;
+
+param:  N:       Nmin   Nmax :=
+        Cal       400    700
+        Carbo      30     80
+        Protein    55      .
+        VitA       20      .
+        VitC       20      .
+        Calc       40      .
+        Iron       15      . ;
+
+param a:
+                               Cal  Carbo Protein   VitA   VitC  Calc  Iron :=
+  "Quark"                      140      5     30      5      6    30     5
+  "Jogurth"                    110      5     30      5      5    20     5
+  "Carb mix"                   150     35     10      6      2    10    20
+  "Kakao"                       30      5     10      2      2    10    20
+  "Veggie mix"                 120     30     18     20     20    20    10
+  "Sugar mix"                  120     30     18      4     15    20    15
+  "Milk Protein Pulver"        100     10     20     10      4    30    10
+  "Lemon Juice"                 10     10      1      2    120     2     2 ;
